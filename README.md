@@ -1,15 +1,17 @@
 # Semantic Segmentation
 [//]: # (Image References)
-[image1]: ./images/distortion_correction.jpg
-[image2]: ./images/undist.jpg
-[image3]: ./images/binarized.jpg
+[image1]: ./runs/1502636585.5323896/um_000000.png
+[image2]: ./runs/1502636585.5323896/umm_000069.png
+[image3]: ./loss_epoch_20.png
 
 In this project, the pixels of a road are labelled in images using a Fully Convolutional Network (FCN).
+
+Here are some labelled results:
 
 ![][image1]
 ![][image2]
 
-Here is the training loss of the implemented model:
+This is the training loss of the implemented model:
 
 ![][image3]
 
