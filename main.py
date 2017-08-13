@@ -132,12 +132,13 @@ tests.test_optimize(optimize)
 
 
 def plot_loss(loss):
-    plt.figure(figsize=(4,3))
+    plt.figure(figsize=(8,6))
     plt.plot(range(1, len(loss)+1), loss)
     plt.xlabel("epoch")
     plt.ylabel("loss")
     plt.title("training loss")
-    plt.savefig("./loss_epoch=18.png")
+    plt.tight_layout()
+    plt.savefig("./loss_epoch=20.png")
 
 
 def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_loss, input_image,
@@ -186,7 +187,7 @@ tests.test_train_nn(train_nn)
 def run():
     num_classes = 2
     image_shape = (160, 576)
-    epochs = 18
+    epochs = 20
     batch_size = 2
     learning_rate = 0.0001
     data_dir = './data'
