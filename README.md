@@ -1,6 +1,18 @@
 # Semantic Segmentation
-### Introduction
-In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
+[//]: # (Image References)
+[image1]: ./images/distortion_correction.jpg
+[image2]: ./images/undist.jpg
+[image3]: ./images/binarized.jpg
+
+In this project, the pixels of a road are labelled in images using a Fully Convolutional Network (FCN).
+
+![][image1]
+![][image2]
+
+Here is the training loss of the implemented model:
+
+![][image3]
+
 
 ### Setup
 ##### Frameworks and Packages
