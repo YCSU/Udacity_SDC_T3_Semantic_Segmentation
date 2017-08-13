@@ -101,6 +101,4 @@ ENV/
 .mypy_cache/
 
 RUNS/
-runs/
 data/
-loss*.png

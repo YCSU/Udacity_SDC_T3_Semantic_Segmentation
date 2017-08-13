@@ -138,7 +138,7 @@ def plot_loss(loss):
     plt.ylabel("loss")
     plt.title("training loss")
     plt.tight_layout()
-    plt.savefig("./loss_epoch=20.png")
+    plt.savefig("./loss_epoch_20.png")
 
 
 def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_loss, input_image,
